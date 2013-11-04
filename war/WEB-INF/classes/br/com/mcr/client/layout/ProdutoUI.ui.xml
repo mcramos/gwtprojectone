@@ -1,0 +1,34 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+		.important {
+			font-weight: bold;
+		}
+	</ui:style>
+	<g:HTMLPanel>
+		<g:DialogBox text="Produto" modal="true" autoHideEnabled="false" ui:field="wndProduto" >
+			<g:AbsolutePanel height="255px" width="400px">
+				<g:at left="9" top="26">
+					<g:Label text="Descrição"/>
+				</g:at>
+				<g:at left="73" top="18">
+					<g:TextBox/>
+				</g:at>
+				<g:at left="7" top="75">
+					<g:Label text="Valor"/>
+				</g:at>
+				<g:at left="73" top="67">
+					<g:TextBox/>
+				</g:at>
+				<g:at left="32" top="201">
+					<g:Button ui:field="btnGravar">Gravar</g:Button>
+				</g:at>
+				<g:at left="171" top="201">
+					<g:Button width="58px" height="27px" ui:field="btnSair">Sair</g:Button>
+				</g:at>
+
+			</g:AbsolutePanel>
+		</g:DialogBox>
+	</g:HTMLPanel>
+</ui:UiBinder> 

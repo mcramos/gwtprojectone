@@ -1,0 +1,3 @@
+# Module gwtprojectone
+# RPC service class, partial path of RPC policy file
+br.com.mcr.client.ClienteService, E86A917D7229EFC726DCDA3111DE3AF0.gwt.rpc
