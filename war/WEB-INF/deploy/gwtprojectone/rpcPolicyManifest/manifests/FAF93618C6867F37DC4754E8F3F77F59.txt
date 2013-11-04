@@ -1,2 +1,0 @@
-serviceClass: br.com.mcr.client.ClienteService
-path: E86A917D7229EFC726DCDA3111DE3AF0.gwt.rpc
