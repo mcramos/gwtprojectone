@@ -22,7 +22,6 @@
 
   <!-- Specify the app entry point class.                         -->
   <entry-point class='br.com.mcr.client.GWTProjectOne'/>
-  <set-property name='user.agent' value='safari' />  
 
   <!-- Specify the paths for translatable code                    -->
   <source path='client'/>

@@ -15,7 +15,6 @@ import com.google.gwt.user.client.Window;
 import com.google.gwt.user.client.rpc.AsyncCallback;
 import com.google.gwt.user.client.ui.Button;
 import com.google.gwt.user.client.ui.Composite;
-import com.google.gwt.user.client.ui.DialogBox;
 import com.google.gwt.user.client.ui.HasText;
 import com.google.gwt.user.client.ui.TextBox;
 import com.google.gwt.user.client.ui.Widget;
@@ -31,7 +30,6 @@ public class ClienteUI extends Composite implements HasText {
 
 	@UiField Button button;
 	@UiField Button btnSair;
-	@UiField DialogBox winDialog;
 	@UiField TextBox nome;
 	@UiField TextBox rg;
 	@UiField TextBox cpf;
@@ -45,8 +43,6 @@ public class ClienteUI extends Composite implements HasText {
 		nome.addStyleDependentName("Fontupper");
 		rg.addStyleDependentName("Fontupper");
 		cpf.addStyleDependentName("Fontupper");
-		winDialog.setText("Cliente");
-		winDialog.show();
 	}
 
 	public void setText(String text) {
@@ -79,10 +75,4 @@ public class ClienteUI extends Composite implements HasText {
 		};
 		service.save(c, callback);
 	}
-	
-	@UiHandler("btnSair")
-	void fechaJanela(ClickEvent e){
-		winDialog.hide();
-	}
-
 }

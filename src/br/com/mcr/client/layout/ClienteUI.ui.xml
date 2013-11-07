@@ -1,38 +1,48 @@
 <!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
 <ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
 	xmlns:g="urn:import:com.google.gwt.user.client.ui">
-	<ui:with field="res" type="br.com.mcr.resources.ResourceMcr"/>
-	
+	<ui:with field="res" type="br.com.mcr.resources.ResourceMcr" />
+
 	<g:HTMLPanel>
-		<g:DialogBox ui:field="winDialog" autoHideEnabled="false"
-			modal="true">
-			<g:AbsolutePanel height="268px" width="491px">
-				<g:at left="80" top="20">
-					<g:TextBox width="365px" height="15px" ui:field="nome" />
-				</g:at>
-				<g:at left="20" top="26">
-					<g:Label text="Nome" width="54px" height="15px"
-						horizontalAlignment="ALIGN_LEFT" />
-				</g:at>
-				<g:at left="80" top="53">
-					<g:TextBox ui:field="rg"/>
-				</g:at>
-				<g:at left="20" top="69">
-					<g:Label text="Rg" width="54px" height="15px" />
-				</g:at>
-				<g:at left="294" top="53">
-					<g:TextBox ui:field="cpf"/>
-				</g:at>
-				<g:at left="253" top="69">
-					<g:Label text="Cpf:" />
-				</g:at>
-				<g:at left="136" top="215">
-					<g:Button ui:field="button" >Gravar</g:Button>
-				</g:at>
-				<g:at left="298" top="215">
-					<g:Button ui:field="btnSair" width="66px" height="27px">Sair</g:Button>
-				</g:at>
-			</g:AbsolutePanel>
-		</g:DialogBox>
+		<g:AbsolutePanel height="389px" width="587px">
+			<g:at left="80" top="20">
+				<g:TextBox width="365px" height="15px" ui:field="nome" />
+			</g:at>
+			<g:at left="20" top="26">
+				<g:Label text="Nome" width="54px" height="15px"
+					horizontalAlignment="ALIGN_LEFT" />
+			</g:at>
+			<g:at left="80" top="53">
+				<g:TextBox ui:field="rg" />
+			</g:at>
+			<g:at left="20" top="69">
+				<g:Label text="Rg" width="54px" height="15px" />
+			</g:at>
+			<g:at left="294" top="53">
+				<g:TextBox ui:field="cpf" />
+			</g:at>
+			<g:at left="253" top="69">
+				<g:Label text="Cpf:" />
+			</g:at>
+			<g:at left="55" top="352">
+				<g:Button ui:field="button">Gravar</g:Button>
+			</g:at>
+			<g:at left="132" top="352">
+				<g:Button ui:field="btnSair" width="66px" height="27px">Sair</g:Button>
+			</g:at>
+			<g:at left="10" top="130">
+				<g:TabPanel width="567px" height="217px">
+					<g:Tab text="Vendas">
+					<g:FlowPanel></g:FlowPanel>
+					</g:Tab>
+					<g:Tab text="Contato">
+						<g:FlowPanel></g:FlowPanel>
+					</g:Tab>
+					<g:Tab text="Cobrança">
+						<g:FlowPanel></g:FlowPanel>
+					</g:Tab>
+				</g:TabPanel>
+			</g:at>
+		</g:AbsolutePanel>
 	</g:HTMLPanel>
 </ui:UiBinder> 

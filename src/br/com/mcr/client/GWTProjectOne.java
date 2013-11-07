@@ -1,15 +1,12 @@
 package br.com.mcr.client;
 
-import br.com.mcr.client.layout.ClienteUI;
 import br.com.mcr.client.layout.MainWindow;
-import br.com.mcr.client.layout.OutraJan;
 
 import com.google.gwt.core.client.EntryPoint;
 import com.google.gwt.core.client.Scheduler.ScheduledCommand;
 import com.google.gwt.user.client.ui.MenuBar;
 import com.google.gwt.user.client.ui.MenuItem;
 import com.google.gwt.user.client.ui.RootPanel;
-import com.google.gwt.user.client.ui.VerticalPanel;
 
 /**
  * Entry point classes define <code>onModuleLoad()</code>.

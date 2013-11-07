@@ -1,6 +1,7 @@
 <!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
 <ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
 	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<!-- xmlns:c="urn:import:br.com.mcr.client.layout"> -->
 	<ui:style>
 		.important {
 			font-weight: bold;
@@ -27,6 +28,7 @@
 				<g:at left="171" top="201">
 					<g:Button width="58px" height="27px" ui:field="btnSair">Sair</g:Button>
 				</g:at>
+				<!-- <c:ClienteUI></c:ClienteUI> -->
 
 			</g:AbsolutePanel>
 		</g:DialogBox>
